@@ -1,0 +1,19 @@
+<html>
+<body>
+<p>Press F12</p>
+<script>
+console.time();
+const spacing = '10px'; 
+ const styles =  
+        `padding: ${spacing}; background-color: white; color: blue; font-style:  
+         italic; font-size: 2em;`; 
+  console.log('%cMy Marks', styles); 
+ console.table({Subject:'Math' , Marks : 45} , { Subject:'English' , Marks : 48} , {Subject: 'Science' , Marks : 42});
+for(i=0;i<3;i++)
+{
+console.count("Subject ");
+}
+console.timeEnd();
+</script>
+</body>
+</html> 
