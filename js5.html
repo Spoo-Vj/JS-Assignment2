@@ -1,0 +1,36 @@
+
+Keywords<br>
+var,let and const are the keywords used to declare a variable.<br>
+1. var - It can be redeclared and updated.<br>
+
+2. let - It can be updated but not redeclared.<br>
+
+3. const - It is used to declare variables with will not be changed later. Because it cannot be updated.
+                   But we can change the attributes of the object created as const variable. <br>
+
+<html>
+<body>
+<script>
+var x=40;
+x = 50;                                                    //updating x
+console.log(x);
+var x = 10;                                          //redeclaring x
+console.log(x);
+
+let y = 'Hello';
+y = 'Hey';                                         //updating y
+console.log(y);
+/*let y = 'Hi';                                   This will show error*/
+
+const name = "Vijayalakshmi S";
+/*name = "Spoorthi";                       error*/
+console.log(name);
+/*const name = "VJ";                       error*/
+</script>
+</body>
+</html>
+
+
+
+
+
